@@ -1,0 +1,28 @@
+body {
+    padding: 10px;
+  }
+  
+  input {
+    margin: 5px;
+  }
+
+  div{
+    display: flex;
+    flex-direction: column;
+  }
+
+  label{
+      flex: 1;
+      font-weight: bold;
+      margin-top: 30px;
+    }
+    
+    input, textarea{
+      flex:2;
+    }
+
+
+    button{
+        margin-top: 30px;
+        border-radius: 10%;
+    }
